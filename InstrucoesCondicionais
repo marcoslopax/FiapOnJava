@@ -1,0 +1,21 @@
+package FiapOnJava;
+
+public class InstrucoesCondicionais {
+
+	public static void main(String[] args) {
+		int x = 10;
+		if(x > 10){
+			  System.out.println("X é maior que 10");
+			  System.out.println(" ***** FIM ***** "); 
+				} else if(x == 10) {
+					System.out.println("X é igual a 10");
+					}	else {
+							System.out.println("X é menor que 10");
+							System.out.println(" ***** FIM ***** ");
+				}
+			}
+		
+		
+	}
+
+
