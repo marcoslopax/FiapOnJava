@@ -1,0 +1,27 @@
+package FiapOnJava;
+
+import java.util.Scanner;
+
+public class ExercicioIMC {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		float altura, peso, imc;
+		
+		System.out.print("Digite a altura: ");
+		 altura = sc.nextFloat();
+		
+		System.out.print("Digite o peso: ");
+		 peso = sc.nextFloat();
+		
+		 imc = peso / (altura * altura);
+		if (imc >= 18.5 && imc <= 25) {
+		System.out.println("Seu Índice de Massa Corpórea é ideal: " + imc + " Kg");
+		} else { 
+			System.out.println("O Índice de Massa Corpórea está fora do peso ideal: " + imc + " Kg");
+				
+				sc.close();
+		}
+	}
+}
