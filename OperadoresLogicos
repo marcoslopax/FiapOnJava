@@ -1,0 +1,18 @@
+package FiapOnJava;
+
+public class OperadoresLogicos {
+
+	public static void main(String[] args) {
+		int idade = 10;
+		boolean precisaVotar = idade > 18 && idade < 70;
+		boolean teste = idade < 10 || idade > 50;
+		boolean not = !(idade > 18);
+		boolean xor = idade < 10 ^ idade > 50;
+		
+		System.out.println("Resultado do teste lógico de && (AND): " + precisaVotar);
+		System.out.println("Resultado do teste lógico de || (OR):  " + teste);
+		System.out.println("Resultado do teste lógico de ! (NOT):  " + not);
+		System.out.println("Resultado do teste lógico de ^ (XOR): " + xor);
+	}
+
+}
