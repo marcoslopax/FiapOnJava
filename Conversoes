@@ -1,0 +1,29 @@
+package FiapOnJava;
+
+public class Conversoes {
+
+	public static void main(String[] args) {
+		int x = 10;
+		double d = x;
+		long l = x;
+		float f = x;
+		double u = 15;
+		int y = (int) u;
+		
+		System.out.print("Inteiro: ");
+		System.out.println(x);
+		System.out.print("Double: ");
+		System.out.println(d);
+		System.out.print("Long: ");
+		System.out.println(l);
+		System.out.print("Float: ");
+		System.out.println(f);
+		System.out.print("Cast, é converter entre parenteses, por exemplo, um double:  ");
+		System.out.println(u);
+		System.out.print("Vira um inteiro: ");
+		System.out.println(y);
+		
+		
+	}
+
+}
